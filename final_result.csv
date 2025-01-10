@@ -1,0 +1,154 @@
+tools,link,description,Language,License,Availability,Resource type,Purpose,Pre Process,in process mitigation,post processs ,detect/mitigate,Works on algorithms,
+ayong8/FairSight,https://github.com/ayong8/FairSight,FairSight is a viable fair decision making system to assist decision makers in achieving fair decision making through the machine learning workflow.,Python,MIT,Open source,Framework,"Generic, Analysis",Feature Selection,Fairness Aware Algorithm,Reranking Algorithm,Mitigate,,
+KenSciResearch/fairMLHealth,https://github.com/KenSciResearch/fairMLHealth,Healthcare-specific tools for bias analysis,Python,MIT,Open source,Tool,"HealthCare, Analysis","Selection bias, Measurement Bias",Fair and Unbiased ML Algo,Adjusting Output,Mitigate,,
+INSPIRED-GMU/fairkit-learn,https://github.com/INSPIRED-GMU/fairkit-learn,"airkit-learn is an open-source, publicly available Python toolkit designed to help data scientists evaluate and explore machine learning models with respect to quality and fairness metrics simultaneously.",Python,,Open source,Toolkit,"Generic, Analysis",Adjusting dataset,adversarial debiasing,Adjusting model's prediction,Mitigate,,
+equialgo/fairness-in-ml,https://github.com/equialgo/fairness-in-ml,"This repository contains the full code for the ""Towards fairness in machine learning with adversarial networks"" blog post.
+
+Resources",Python,MIT,Open source,Tool (?),"Generic, Analysis",,adversial training,,Detect,,
+AI-secure/DecodingTrust,https://github.com/AI-secure/DecodingTrust,A Comprehensive Assessment of Trustworthiness in GPT Models,Python,CC-BY-SA-4.0 ,Open source,API,"GPT, Analysis",,,,Detect,,
+oracle/guardian-ai,https://github.com/oracle/guardian-ai,Oracle Guardian AI Open Source Project is a library consisting of tools to assess fairness/bias and privacy of machine learning models and data sets.,Python,UPL-1.0 license,Open source,Library,"Generic, Analysis",,,bias mitigation,"Detect (?), Mitigate",,
+AI4LIFE-GROUP/OpenXAI,https://github.com/AI4LIFE-GROUP/OpenXAI,OpenXAI : Towards a Transparent Evaluation of Model Explanations,Python,MIT,Open source,Framework,"Generic, Analysis",synthetic data generation,"Feature Attribution : LIME, SHAP , Vanilla Gradients","Feature Agreement (FA), Rank Agreement (RA), and Pairwise Rank Agreement (PRA)",Detect,,
+cakiki/ml-fairness-validity,https://github.com/cakiki/ml-fairness-validity,Exploring issues of fairness and validity in machine learning pipelines,Python, Apache,Open source,Tool,"Generic, Analysis","Adversial debiasing
+Reweighing",,,Detect,,
+google/ml-fairness-gym,https://github.com/google/ml-fairness-gym,"ML-fairness-gym is a set of components for building simple simulations that explore the potential long-run impacts of deploying machine learning-based decision systems in social environments. As the importance of machine learning fairness has become increasingly apparent, recent research has focused on potentially surprising long term behaviors of enforcing measures of fairness that were originally defined in a static setting. Key findings have shown that under specific assumptions in simplified dynamic simulations, long term effects may in fact counteract the desired goals. Achieving a deeper understanding of such long term effects is thus a critical direction for ML fairness research. ML-fairness-gym implements a generalized framework for studying and probing long term fairness effects in carefully constructed simulation scenarios where a learning agent interacts with an environment over time. This work fits into a larger push in the fair machine learning literature to design decision systems that induce fair outcomes in the long run, and to understand how these systems might differ from those designed to enforce fairness on a one-shot basis.
+",Python,Apache,Open source,Tool,"Generic, Analysis",,,,Detect,,
+JohnSnowLabs/langtest,https://github.com/JohnSnowLabs/langtest,"Deliver safe & effective language models
+",Python ,Apache,Open source,Language Model,"Generic, Analysis",Data Augmentation,Rigorus testing,Evaluation and retraining,Detect,,
+kozodoi/fairness,https://github.com/kozodoi/fairness,R package for computing and visualizing fair ML metrics,R,Personal,Open source,Package,"Generic, Binary Classification",,Fairness Calculation Algorithm,,Detect,,
+EthicalML/xai,https://github.com/EthicalML/xai,XAI - An eXplainability toolbox for machine learning,Python,MIT,Open source,Library,"Generic, Analysis",Balanced Data Splitting:,Permutation Feature Importance,,Detect,,
+"microsoft/responsible-ai-
+toolbox","https://github.com/microsoft/responsible-ai-
+toolbox","Responsible AI Toolbox is a suite of tools providing model and data exploration and assessment user interfaces and libraries that enable a better understanding of AI systems. These interfaces and libraries empower developers and stakeholders of AI systems to develop and monitor AI more responsibly, and take better data-driven actions.",Python,MIT,Open source,Toolbox,"Generic, Analysis",,Grid Algorithm,,Detect (?),,
+ashryaagr/Fairness.jl,https://github.com/ashryaagr/Fairness.jl,Julia Toolkit with fairness metrics and bias mitigation algorithms,Julia,MIT,Open source,Toolkit,"Generic, Analysis",ReweighingSamplingWrapper,Penalty Algorithm,"Equalized Odds Algorithm
+Calibrated Equalized Odds Algorithm
+LinProg Algorithm",Mitigate,,
+ModelOriented/fairmodels,https://github.com/ModelOriented/fairmodels,"Flexible tool for bias detection, visualization, and mitigation",R,GPL,Open source,Tool,"Generic, Analysis",,"calculate_group_fairness_metrics()
+resample() and reweight()","roc_pivot()
+disparate_impact_remover()",Mitigate,,
+ResponsiblyAI/responsibly,https://github.com/ResponsiblyAI/responsibly,Toolkit for Auditing and Mitigating Bias and Fairness of Machine Learning System,Python,MIT,Open source,Toolkit/ Library,"Generic, Analysis",,,recalibrating decision,Mitigate,,
+vanderschaarlab/synthcity,https://github.com/vanderschaarlab/synthcity,"A library for generating and evaluating synthetic tabular data for privacy, fairness and data augmentation.",Python,Apache,Open source,Library,"Generic, Analysis",,"GANs (Generative Adversarial Networks) like CTGAN, TVAE (Tabular Variational Autoencoder),
+VAE",,Mitigate,,
+thu-coai/cotk,https://github.com/thu-coai/cotk,Conversational Toolkit. An Open-Source Toolkit for Fast Development and Fair Evaluation of Text Generation,Python,Apache,Open source,Framework,"Generic, COnversasional",,,,Detect,,
+wearepal/EthicML,https://github.com/wearepal/EthicML,"Package for evaluating the performance of methods which aim to increase fairness, accountability and/or transparency",Python,GPL,Open source,Package / Framework,"Generic, Analysis",,Kamiran classifier,,Detect (-),,
+Giskard-AI / giskard,https://github.com/Giskard-AI/giskard,Open-Source Evaluation & Testing framework for LLMs and ML models,Python,Apache,Open source,Framework,"LLM Models, Analysis",,,,Detect,,
+dccuchile / wefe,https://github.com/dccuchile/wefe,WEFE: The Word Embeddings Fairness Evaluation Framework. WEFE is a framework that standardizes the bias measurement and mitigation in Word Embeddings models. Please feel welcome to open an issue in case you have any questions or a pull request if you want to contribute to the project!,Python,MIT,Open source,Library,"Word EMbedding Models,  Guiding",,"WEAT (Word Embedding Association Test): 
+RND (Relative Norm Distance):
+RNSB (Relative Negative Sentiment Bias):",,"- (Standerdized)
+Detect",,
+microsoft / SafeNLP,https://github.com/microsoft/SafeNLP,Safety Score for Pre-Trained Language Models,Python,MIT,Open source,EMpirical Study,"Generic, Analysis",,New Metric for Quantifying Representational Harms,,- ---- Detect,,
+firmai / ml-fairness-framework,https://github.com/firmai/ml-fairness-framework,"FairPut - Machine Learning Fairness Framework with LightGBM — Explainability, Robustness, Fairness (by @firmai)",Python,Apache,Open source,Framework,"Generic, Guidance",,Quantitative Validation of Monotonicity:,,Mitigate,,
+aws / amazon-sagemaker-clarify,https://github.com/aws/amazon-sagemaker-clarify,Fairness Aware Machine Learning. Bias detection and mitigation for datasets and models.,Python,Apache,Open source,Tool,"Generic, Analysis",,K nearest neighbour algorithm,,Mitigate,,
+IBM / inFairness,https://github.com/IBM/inFairness,PyTorch package to train and audit ML models for Individual Fairness,Python,Apache,Open source,Package,"Generic, Guidance",,"Sensitive Set Invariance (SenSeI)
+Sensitive Subspace Robustness (SenSR)",Graph Laplacian Individual Fairness (GLIF),Mitigate,,
+pliang279/sent_debias,https://github.com/pliang279/sent_debias,[ACL 2020] Towards Debiasing Sentence Representations,Python,MIT,Open source,Method,"Generic, Analysis",,,Debiasing,Mitigate,,
+deel-ai/influenciae,https://github.com/deel-ai/influenciae,nfluenciae is a Tensorflow Toolbox for Influence Functions,Python,MIT,Open source,Toolkit,"Genric, Analysis",,"Representer Point Selection (RPS
+ExactIHVP
+LiSSA
+Conjugate Gradient Descent
+Arnoldi Iteration",,Detect,,
+credo-ai / credoai_lens,https://github.com/credo-ai/credoai_lens,"Credo AI Lens is a comprehensive assessment framework for AI systems. Lens standardizes model and data assessment, and acts as a central gateway to assessments created in the open source community.",Python,MIT,Open source,Framework,"Generic, Analysis",,,,Detect,,
+matloff/EDFfair,https://github.com/matloff/EDFfair,"Explicitly Deweighted Features, for Fair ML",R,,Open source,Library,"G, A",Ridge Regression and LASSO:,"Random Forests and k-Nearest Neighbors:
+Explicitly Deweighted Features (EDF)",,Mitigate,,
+FairRankTune,https://kcachel.github.io/fairranktune/,"FairRankTune is a an open-source Python toolkit supporting end-to-end fair ranking workflows, analysis, auditing, and experimentation. FairRankTune provides researchers, practitioners, and educators with a self-contained module for generating ranked data, ranking strategies, and popular ranking-based fairness metrics.",Python,BSD 3,Open source,Toolkit,"G, A",DetConstSort,Epsilon-Greedy,"Exposure Rank Biased Precision (ERBP), Group Exposure (EXP)
+Exposure Utility (EXPU)
+Exposure Realized Utility (EXPRU)
+Attention Weighted Rank Fairness (AWRF)
+Exposure Rank Biased Precision Equality (ERBE)
+Exposure Rank Biased Precision Proportional to Relevance (ERBR)
+Attribute Rank Parity (ARP)
+Normalized Discounted KL-Divergence (NDKL)
+Inequity of Amortized Attention (IAA)
+
+(Matrix)",Mitigate,fair ranking algorithms,
+fairpan,https://modeloriented.github.io/FairPAN/,"FairPANs are the solution to bring fairness into neural networks. We mimic the GANs by subsetting generator with classifier (predictor) and adversarial has to predict the sensitive value (such as sex, race, etc) from the output of the predictor. ",R,GPL,Open source,,"G,A",,"Predictive Model Training
+Adversarial Model Training
+Custom Loss Function",,Mitigate,Generative Adversial,
+microsoft / responsible-ai-toolbox-genbit,https://github.com/microsoft/responsible-ai-toolbox-genbit,A tool for gender bias identification in text. Part of Microsoft's Responsible AI toolbox.,Python,MIT,Open source,Tool,"G,A","Gender Definition Lexicons:
+Predefined Context Windows","Metric Calculation
+Sentence Masking and Lemmatization","Bias Mitigation Framework
+terative Benchmarking and Validation",Mitigate,NLP,
+ClearExplanationsAI/CLEAR,https://github.com/ClearExplanationsAI/CLEAR,Counterfactual Local Explanations of AI systems,Python,MIT,Open source,Tool,"G,A",,"GAN-Augmented Segmentation:
+Regression Analysis",,Mitigate,Classification,
+dbountouridis/siren,https://github.com/dbountouridis/siren,A Simulation Framework for Understanding the Effects of Recommender Systems in Online News Environments,Python,MIT,Open source,Framework,"G,A ",,"ItemKNN
+WeightedBPRFM
+UserKNN",,Detect,,KNN
+mlr-org/mcboost,https://github.com/mlr-org/mcboost,Multi-Calibration & Multi-Accuracy Boosting for R,R,GNU,Open source,Framework,"G,A",,"Auditing Algorithm
+Ridge Regression and Decision Trees",,Mitigate,,
+cylynx / verifyml,https://github.com/cylynx/verifyml,Open-source toolkit to help companies implement responsible AI workflows.,Python,Apache ,Open source,Toolkit,"G,A",,"Model Card Framework
+Subgroup Disparity Test
+Min/Max Metric Threshold Test:
+Perturbation Test
+Feature Importance Test
+Data Shift Test",,Mitigate,"Computer Vision, NLP",
+oracle-samples / automlx,https://github.com/oracle-samples/automlx,This repository contains demo notebooks (sample code) for the AutoMLx (automated machine learning and explainability) package from Oracle Labs.,Python,UPL,Open source,package,"G,A",,Feature Selection,,Detect,"classification, regression",
+adebayoj/fairml,https://github.com/adebayoj/fairml,"FairML is a python toolbox auditing the machine learning models for bias.
+",Python,MIT,Open Source,Toolkit,"Generic, Analysis",,IOFP and mRMR,,Detect,"Explainable AI, Classification, Regression",
+columbia/fairtest,https://github.com/columbia/fairtest,FairTest enables developers or auditing entities to discover and test for unwarranted associations between an algorithm's outputs and certain user subpopulations identified by protected features.,Python,Apache,Open Source,Tool,"Generic, Analysis",,"Association-guided Tree Construction
+",,Mostly detect,"classification, regression","Random Forest, Decision Tree, "
+FAIR4HEP/FAIR4HEP-Toolkit,https://github.com/FAIR4HEP/FAIR4HEP-Toolkit,This is a Binder-compatible repo with python environment specific in requirements.txt.,,MIT,Open Source,Toolkit,,,,,,,
+barcoopensource / vivaldy-ai-analysis-dashboard,https://github.com/barcoopensource/vivaldy-ai-analysis-dashboard,The Vivaldy (VerIfication and Validation of Ai-enabLeD sYstems) analysis tool and dashboard allows for automated subgroup performance analysis for AI algorithms.,Python,Barco Vivadly,Open Source,Tool,"Generic, Analysis",,,,Detect,Drift Detection,
+Teddyzander/FairR,https://github.com/Teddyzander/FairR,Measures stability of the fairness measure for a fair AI,Python,,Open Source,Project,,,,,,,
+hannanabdul55/seldonian-fairness,https://github.com/hannanabdul55/seldonian-fairness,Build fair and safe Machine Learning models in Python,Python,MIT,Open Source,Library,"Generic, Analysis",,Sheldonian Algorithm,,Mitigate,"Reinforcement learning, Regression, Classification","Least Squares Linear Regression, random Forest, "
+aida-ugent/fairret,https://github.com/aida-ugent/fairret,"A fairness library in PyTorch.
+",Python,MIT,Open Source,Library,"Generic, Analysis",,FAIRRET,,Mitigate,"classification, regularization, XAI",
+Telefonica/XAIoGraphs,https://github.com/Telefonica/XAIoGraphs,XAIoGraphs (eXplainability Articicial Intelligence over Graphs) is an Explicability and Fairness Python library for classification problems with tabulated and discretized data.,Python,AGPL,Open Source,Library,"Generic, Analysis",,,,Detect,classification,
+kamyabnazari/fair-energy-ai,https://github.com/kamyabnazari/fair-energy-ai,The Fair Energy AI is an demonstration on how AI models and software relying on them can be transparent and deliver fair results in Energy Management sector.,,MIT/,Open Source,,"Generic, Guidance",,,,,,
+sethneel/GerryFair,https://github.com/sethneel/GerryFair,"Package implementing methods developed in ""Preventing Fairness Gerrymandering"" [ICML '18], ""Rich Subgroup Fairness for Machine Learning"" [ FAT* '19]. active development fork @algowatchupenn",Python,MIT,Open Source,Package,"Generic, Analysis",,"FTPL
+Fictitious Play",,Mitigate,"Game-theoratic learning, linear regression, classification",
+umang-garg21/Fair-MisGAIN,https://github.com/umang-garg21/Fair-MisGAIN,"Codebase for ""Fair-GAIN"" for fair ML predictions.",Python,--,Open Source,Framework,"Generic, Analysis",,Ball tree,,,Generative Models,GAN
+martinetoering/Embetter,https://github.com/martinetoering/Embetter,"FACT-AI (Fairness, Accountability, Confidentiality, and Transparency in AI) Project on Debiasing word embeddings",Python,MiT,Open Source,Tool,"Generic, Analysis",SVD,,"Soft debiasing
+Hard debiasing : 
+SGD and Adam optimizer",Mitigate,NLP and word embeddings,
+brandeis-machine-learning/FairPy,https://github.com/brandeis-machine-learning/FairPy,FairPy: A Python Library for Machine Learning Fairness,Python,BSD- 2 Clause,Open Source,Library,"Generic, Analysis",,Fair Rank,,Mitigate,Classification and Ranking,
+Facebook Fairness Flow,https://ai.meta.com/blog/how-were-using-fairness-flow-to-help-build-ai-that-works-better-for-everyone/?__tn__=-UK-R,"AI plays an important role across Facebook’s apps — from enabling stunning AR effects, to helping 
+keep bad content off our platforms
+, to directly improving the lives of people in our communities through our 
+COVID-19 Community Help hub
+. As AI-powered services become ubiquitous in everyday life, it’s becoming even more important to understand how systems might affect people around the world and how to help ensure the best possible outcomes for them.",,,,,,level regression classifier,,,,,
+dssg/aequitas,https://github.com/dssg/aequitas,Bias Auditing & Fair ML Toolkit,Python,MIT,Open Source,Toolkit,"Generic, Analysis",Prevalence Sampling,"FairBGm,Exponentiated Gradient and GridSearch",Balanced Group Threashhold,Mitigate,,
+cosmicBboy/themis-ml,https://github.com/cosmicBboy/themis-ml,A library that implements fairness-aware machine learning algorithms,Python,MIT,Open Source,Library,"Generic, Analysis","Relabelling (Massaging):
+Reweighting
+Sampling
+","Prejudice Remover Regularizer (PRR)
+Additive Counterfactually Fair (ACF) Model","Reject Option Classification (ROC)
+Discrimination Aware Ensemble Classification (DAEC)",Mitigate,"Classification, Fairness Aware ML",
+Trusted-AI/AIF360,https://github.com/Trusted-AI/AIF360,"A comprehensive set of fairness metrics for datasets and machine learning models, explanations for these metrics, and algorithms to mitigate bias in datasets and models.","Python,R",Apache,Open Source,Toolkit,"Generic, Analysis",Optimized Preprocessing ,"Disparate Impact Remover 
+Equalized Odds Postprocessing 
+Reweighing 
+Reject Option Classification 
+Prejudice Remover Regularizer 
+Calibrated Equalized Odds Postprocessing 
+Learning Fair Representations 
+Adversarial Debiasing 
+Meta-Algorithm for Fair Classification 
+Rich Subgroup Fairness 
+Exponentiated Gradient Reduction
+Grid Search Reduction 
+Fair Data Adaptation 
+Sensitive Set Invariance/Sensitive Subspace Robustness ",,Mitigate,Classification,"LR, RF, NN"
+drivendataorg/deon,https://github.com/drivendataorg/deon,A command line tool to easily add an ethics checklist to your data science projects.,Python,MIT,Open Source,Tool,"Generic, Guidance",,,,Detect,,
+fairlearn/fairlearn,https://github.com/fairlearn/fairlearn,A Python package to assess and improve fairness of machine learning models.,Python,MIT,Open Source,Package,"Generic, Analysis",Corelation Remover,"ExponentiatedGradient
+GridSearch
+AdversarialFairnessClassifier
+AdversarialFairnessRegressor",Threshold Optimizer,Mitigate,,
+fat-forensics/fat-forensics,https://github.com/fat-forensics/fat-forensics,"Modular Python Toolbox for Fairness, Accountability and Transparency Forensics",Python,BSD-3-Clause,Open Source,Toolbox,"Generic, Analysis",,FAT Algorithm,,Mitigate,,
+meelgroup/justicia,https://github.com/meelgroup/justicia,A formal approach for verifying fairness in machine learning.,Python,Personal,Open Source,Tool,"Generic, Analysis",Bayesian Network,S3P,"Disparate Impact, Equalized odd",Mitigate,,"LR, SVM"
+linkedin/LiFT,https://github.com/linkedin/LiFT,The LinkedIn Fairness Toolkit (LiFT) is a Scala/Spark library that enables the measurement of fairness in large scale machine learning workflows.,Scala,BSD - 2 - Clause,Open Source,Toolkit(Library),"Generic, Analysis",,EoPP algorithm ,,Mitigate,,
+pymetrics/audit-ai,https://github.com/pymetrics/audit-ai,detect demographic differences in the output of machine learning models or other assessments,Python,MIT,Open Source,Library/ Tool,"Generic, Analysis",,"## Classification tasks
+
+- 4/5th, fisher, z-test, bayes factor, chi squared
+- sim_beta_ratio, classifier_posterior_probabilities
+
+### Regression tasks
+
+- anova
+- 4/5th, fisher, z-test, bayes factor, chi squared
+- group proportions at different thresholds",,Mitigate,classification,
+Tizpaz/Parfait-ML,https://github.com/Tizpaz/Parfait-ML,Implementations for detecting and understanding biases in ML libraries,Python,Apache,Open Source,Tool,"Generic, Analysis",,"Independently random search, black box evolutionary search, graybox evolutionary search",,Mitigate,classification,"Random Forest
+SVM
+Decision Tree
+Discriminant analysis
+Logistic Regression
+"
+PAIR-code/what-if-tool,https://github.com/PAIR-code/what-if-tool,"The purpose of the tool is that give people a simple, intuitive, and powerful way to play with a trained ML model on a set of data through a visual interface with absolutely no code required.",Python,Apache,Open Source,Tool,"Generic, Analysis",,"compas -recidivsm
+SHAP, TensorFlow Estimators",,Mitigate,"Classification, Regression",
